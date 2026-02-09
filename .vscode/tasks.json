@@ -96,6 +96,16 @@
             "netCore": {
                 "appProject": "${workspaceFolder}/AZ2003.csproj"
             }
+        },
+        {
+            "type": "dotnet",
+            "task": "clean",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [],
+            "label": "dotnet: clean"
         }
     ]
 }
